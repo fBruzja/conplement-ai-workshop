@@ -1,4 +1,4 @@
-# conplement AI Showcase — Context Engineering for Coding Agents
+# conplement AI Showcase: Context Engineering for Coding Agents
 
 A workshop repository. It contains a deliberately tiny incident-tracker API, and — more importantly —
 a complete, working example of the context that makes an AI coding agent productive on it.
@@ -56,7 +56,3 @@ out-of-scope list.
 3. Delete the skills and write your own. The `description` frontmatter is the hard part
 4. Copy `.claude/skills/writing-specs/` as-is; adapt the template
 5. Add `CLAUDE.md` with a single `@AGENTS.md` import so you keep one source of truth
-
-## Workshop
-
-See [`workshop/`](workshop/) for the deck and facilitator notes.
