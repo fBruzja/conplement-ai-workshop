@@ -1,0 +1,31 @@
+{
+  "name": "conplement-ai-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Workshop showcase: context engineering for AI coding agents, demonstrated on a tiny incident tracker service.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "test:watch": "node --test --watch \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "deck": "marp -s workshop",
+    "deck:html": "marp workshop/deck.md -o workshop/deck.html",
+    "deck:pdf": "marp workshop/deck.md --pdf --allow-local-files -o workshop/deck.pdf",
+    "deck:notes": "marp workshop/deck.md --pdf --pdf-notes --allow-local-files -o workshop/deck-with-notes.pdf"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.5.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.0"
+  }
+}
