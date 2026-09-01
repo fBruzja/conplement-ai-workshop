@@ -1,0 +1,10 @@
+node_modules/
+workshop/
+*.log
+.DS_Store
+workshop/deck.html
+workshop/deck.pdf
+workshop/deck-with-notes.pdf
+CLAUDE.local.md
+.idea/
+.vscode/
